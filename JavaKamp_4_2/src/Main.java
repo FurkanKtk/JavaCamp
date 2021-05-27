@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		BaseCustomerManager customerManager =new SturbucksCustomerManager(new MernisServiceAdapter()) ; 
+		BaseCustomerManager customerManager =new SturbucksCustomerManager(new CustomerCheckManager()) ; 
 
 		//CustomerCheckManager()=fAKE SÝMÜLE //MernisServiceAdapter=tc ile webden doðrulama
 		customerManager.Save(new Customer(1, "furkan", "kütük", 1999, "15395830576"));
