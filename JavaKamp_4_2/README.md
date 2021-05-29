@@ -1,1 +1,1 @@
-# Starbucks sisteme mersis ile kullanıcı kaydetme .
+# Starbucks sistemine mersis ile kullanıcı kaydetme simülasyonu.
